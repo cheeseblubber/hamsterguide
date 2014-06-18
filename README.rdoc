@@ -1,0 +1,2 @@
+== README
+Web App that uses Rails backend with a RESTFull API that communicates with the Backbone Frontend. Makes laptop recommendation by using Amazon API to pull information from Amazon and stores in database recommendations. A weekly task is ran to update the database with laptop.

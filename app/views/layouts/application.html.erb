@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Laptoprec</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.ico' %>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container"><div class="logo">
+      <div class="navbar-header">
+        <a><%= image_tag("laptopfinderlogobeta.png", class: "logo")%></a>
+      </div>
+    </div>
+  </nav>
+<%= yield %>
+
+</body>
+</html>
