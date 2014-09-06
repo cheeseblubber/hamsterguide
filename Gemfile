@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.1'
 gem 'delayed_job_active_record'
 gem 'execjs'
-gem 'therubyracer'
+gem 'devise'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 gem 'pg'
