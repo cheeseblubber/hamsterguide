@@ -36,7 +36,6 @@ group :development do
   gem "pry-rails"
 end
 
-gem "figaro"
 # gem "vacuum"
 gem "multi_xml"
 gem 'jquery-ui-rails'
